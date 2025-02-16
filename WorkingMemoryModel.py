@@ -28,7 +28,7 @@ def input_func(t):
         return vocab["FACE"].v 
     elif 1.2 <= t < 1.6:
         return vocab["BEVERAGE"].v  
-    elif 1.2 <= t < 1.6:
+    elif 1.6 <= t < 2.0:
         return vocab["BEAR"].v  
     else:
         return vocab["ZERO"].v  
